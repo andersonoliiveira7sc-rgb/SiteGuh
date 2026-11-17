@@ -51,7 +51,7 @@ Você pode apontar esse botão para o seu próprio canal, grupo ou perfil.
 
 ## Publicar em outro lugar
 
-O projeto é um app TanStack Start (React + TypeScript + Tailwind CSS v4) e roda em
-qualquer hospedagem Node. O build (`npm run build`) gera a pasta `dist/`.
-Para hospedar em outro serviço, ajuste `vite.config.ts` se o serviço exigir um
-alvo diferente do padrão (`cloudflare`).
+O projeto é um app TanStack Start (React + TypeScript + Tailwind CSS v4). O build
+(`npm run build`) usa o preset Vercel do Nitro para gerar a saída de produção em
+`.vercel/output/`. Para publicar, conecte o repositório ao Vercel ou use o CLI
+`vercel --prod`.
