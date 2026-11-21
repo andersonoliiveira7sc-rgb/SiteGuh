@@ -78,7 +78,7 @@ function Index() {
           </>
         )}
         {step === 2 && (
-          <TikTokStudyStep onBack={() => setStep(1)} primaryButtonClass={btn} username={nick} />
+          <TikTokStudyStep onBack={() => setStep(1)} primaryButtonClass={btn} />
         )}
       </section>
 
